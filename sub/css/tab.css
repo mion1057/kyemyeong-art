@@ -1,0 +1,14 @@
+.sub_tab5_on iframe {
+  width: 100%;
+  height: 100vh;
+}
+.sub_tab6_on iframe {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.sub_tab7_on iframe {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}

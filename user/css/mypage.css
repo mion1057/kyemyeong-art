@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Rubik+Dirt&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+body{
+    background-color: #000;
+    color: #fff;
+}
+/* ================공통================= */
+#mypage_container{
+    width: 91%;
+    margin: 0 auto;
+}
+/* ================이름================= */
+#mypage_name{
+    margin-top: 32px;
+    background-color: #FF6040;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+/* ================마일리지================= */
+#mypage_mileage{
+    background-color: #FF6040;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+/* ================질문&예매================= */
+#mypage_info{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+#myquestion{
+    width: 49%;
+    padding: 14px 8px 14px 16px;
+}
+#myadvance_ticket{
+    width: 49%;
+    padding: 14px 8px 14px 16px;
+}
+#mypage_info a{
+    color: #000;
+}
+#mypage_info .arrow_right {
+    position: relative;
+    float:right;
+    border:transparent;
+    width:24px;
+    height:24px;
+    margin-right:5px;
+    background-color: transparent;
+}
+#mypage_info .arrow_right::after {
+    position: absolute;
+    left: 0; 
+    top: 5px;
+    content: '';
+    width: 13px; /* 사이즈 */
+    height: 13px; /* 사이즈 */
+    border-top: 3px solid #000; /* 선 두께 */
+    border-right: 3px solid #000; /* 선 두께 */
+    transform: rotate(45deg); /* 각도 */
+}
+/* ================목록================= */
+.mypage_contents .mypagetitle h2{
+    color: #FF6040;
+    font-size: 18px;
+    padding-top: 32px;
+    padding-bottom: 8px;
+}
+.mypage_contents .mypage_list{
+    font-size: 14px;
+}
+.mypage_contents .mypage_list ul li{
+    padding: 8px 0;
+    margin-left: 14px;
+}
+/* ================하단버튼================= */
+#quick_add{
+    border-top: 2px solid #fff;
+    margin-top: 16px;
+    margin-bottom: 112px;
+}
+#quick_add button{
+    text-align: left;
+    background-color: transparent;
+    color: #FFBF40;
+    border: transparent;
+    width: 100%;
+    margin-top: 16px;
+    padding: 14px 0;
+    margin-left: 14px;
+}

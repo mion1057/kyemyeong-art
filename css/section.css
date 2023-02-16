@@ -1,0 +1,43 @@
+/* mainSec */
+.mainSec {
+      padding-block: 32px 128px;
+}
+
+.mainSec_title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.mainSec_titleleft {
+      height: 100%;
+      display: flex;
+      align-items: center;
+}
+
+.mainSec_titleleft > p:nth-of-type(1) {
+      font-family: 'SBAggroB';
+      font-size: 18px;
+}
+
+.mainSec_today {
+      margin-left: 6px;
+      color: #808080;
+}
+
+.mainSec_today span {
+      color: #808080;
+}
+
+.mainsec_titleright > a {
+      font-size: 16px;
+      display: inline-block;
+}
+
+.mainSec_titleright > a::before {
+      content: '+';
+}
+
+.mainSec_titleright > a:hover {
+      font-weight: 600;
+}

@@ -1,0 +1,121 @@
+/* mainSec2 */
+.mainSec:nth-of-type(2) {
+      background-color: white;
+}
+
+.mainSec:nth-of-type(2) .mainSec_titleleft > p:nth-of-type(1) {
+      color: black;
+}
+
+.mainSec:nth-of-type(2) .mainSec_titleright > a {
+      color: black;
+}
+
+.mainSec:nth-of-type(2) .mainSec_contents {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+}
+
+.mainSec2_slide {
+      margin-bottom: 12px;
+}
+
+.mainSec2_slide a {
+      display: flex;
+      align-items: center;
+}
+
+.mainSec2_slide .mainSec_imgbox {
+      width: 64px;
+      height: 78px;
+      margin-right: 12px;
+      overflow: hidden;
+      border-radius: 4px;
+}
+
+.mainSec2_slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+}
+
+.mainSec2_slide .mainSec_subtitle {
+      margin-top: 0;
+}
+
+.mainSec2_slide .mainSec_maintitle {
+      color: black;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+}
+
+.mainSec2_slide .mainSec_text {
+      color: #FF6040;
+}
+
+.mainSec2_slide .mainSec_text span {
+      color: #FF6040;
+}
+
+/* pc */
+@media screen and (min-width: 1024px) {
+      .mainSec:nth-of-type(2) .mainSec_contents {
+            width: 90%;
+            max-width: 1120px;
+            margin: 0 auto;
+            margin-top: 32px;
+            padding-inline: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+      }
+
+      .mainSec2_slide {
+            width: 24%;
+            max-width: 262px;
+            margin-right: 0;
+            margin-bottom: 0;
+      }
+      
+      .mainSec2_slide a {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+      }
+
+      .mainSec2_slide .mainSec_imgbox {
+            width: 100%;
+            height: 320px;
+            margin-right: 0;
+            border: 2px solid #e5e5e500;
+            border-radius: 8px;
+      }
+
+      .mainSec2_slide a:hover .mainSec_imgbox {
+            border: 2px solid #FF6040;
+      } 
+
+      .mainSec2_slide img {
+            -webkit-transition: ease-in-out 0.2s;
+            -moz-transition: ease-in-out 0.2s;
+            -ms-transition: ease-in-out 0.2s;
+            -o-transition: ease-in-out 0.2s;
+            transition: ease-in-out 0.2s;
+      }
+
+      .mainSec2_slide a:hover img {
+            transform: scale(1.2);
+      } 
+
+      .mainSec2_slide .mainSec_textbox {
+            width: 100%;
+            padding-left: 0;
+      }
+
+      .mainSec2_slide .mainSec_subtitle {
+            margin-top: 16px;
+      }
+}
